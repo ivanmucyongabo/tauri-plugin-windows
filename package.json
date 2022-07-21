@@ -1,0 +1,23 @@
+{
+  "name": "tauri-plugin-windows-api",
+  "version": "0.0.0",
+  "author": "Q3",
+  "description": "",
+  "browser": "webview-dist/index.js",
+  "main": "webview-dist/index.js",
+  "types": "webview-dist/index.d.ts",
+  "scripts": {
+    "types": "tsc webview-src/index.ts --declaration --emitDeclarationOnly --declarationDir webview-dist",
+    "build": "node webview-src/esbuild.js",
+    "prepublishOnly": "npm run build && npm run types",
+    "pretest": "npm run build && npm run types"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.48",
+    "typescript": "4.7.3"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.2",
+    "tslib": "^2.1.0"
+  }
+}

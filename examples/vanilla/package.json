@@ -1,0 +1,26 @@
+{
+  "name": "vanilla-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js",
+    "dev": "node esbuild.js",
+    "start": "sirv public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri-dev": "tauri dev",
+    "tauri-build": "tauri build"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0",
+    "@tsconfig/recommended": "^1.0.1",
+    "tslib": "2.4.0",
+    "typescript": "4.7.3"
+  },
+  "dependencies": {
+    "sirv-cli": "2.0.2",
+    "tauri-plugin-windows-api": "file:../../"
+  }
+}

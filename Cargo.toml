@@ -1,0 +1,17 @@
+[package]
+name = "tauri-plugin-windows"
+version = "0.0.0"
+authors = [ "Q3" ]
+description = ""
+edition = "2021"
+rust-version = "1.57"
+exclude = ["/examples", "/webview-dist", "/webview-src", "node_modules"]
+
+[dependencies]
+tauri = { version = "1.0.2" }
+serde = { version = "1.0.138" }
+serde_json = { version = "1.0.82" }
+anyhow = { version = "1.0.58" }
+log = { version = "0.4.17" }
+tracing = { version = "0.1.35" }
+thiserror = { version = "1.0.31" }

@@ -1,0 +1,1 @@
+import WindowService from 'tauri-plugin-windows-api';

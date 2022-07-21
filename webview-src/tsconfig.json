@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "paths": {
+      "types": ["@types"]
+    },
+    "moduleResolution": "node",
+    "isolatedModules": true
+  }
+}

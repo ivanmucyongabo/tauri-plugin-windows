@@ -1,0 +1,17 @@
+/.vs
+.DS_Store
+.Thumbs.db
+*.sublime*
+.idea/
+debug.log
+package-lock.json
+.vscode/settings.json
+yarn.lock
+
+/target
+Cargo.lock
+node_modules/
+examples/vanilla/node_modules
+examples/vanilla/package-lock.json
+examples/vanilla/src-tauri/target
+examples/vanilla/src-tauri/Cargo.lock
